@@ -34,10 +34,10 @@
     @apply font-sans text-sm md:text-base lg:text-lg tracking-wide;
   }
   input {
-    @apply form-control block w-full p-2 text-gold bg-bone bg-clip-padding rounded-foxsm transition ease-in-out m-0 focus:text-brown focus:bg-bone focus:outline-none;
+    @apply block w-full p-2 text-gold bg-bone bg-clip-padding rounded-foxsm transition ease-in-out m-0 focus:text-brown focus:bg-bone focus:outline-none;
   }
   textarea {
-    @apply form-control block w-full p-2 text-gold bg-bone bg-clip-padding rounded-foxsm transition ease-in-out m-0 focus:text-brown focus:bg-bone focus:outline-none;
+    @apply block w-full p-2 text-gold bg-bone bg-clip-padding rounded-foxsm transition ease-in-out m-0 focus:text-brown focus:bg-bone focus:outline-none;
   }
 }
 
@@ -68,12 +68,6 @@
   }
   .fox-form {
     @apply rounded-foxlg bg-brown shadow-fox_d fox-px fox-py;
-  }
-  .form-group {
-    @apply fox-mb;
-  }
-  .form-control {
-    @apply;
   }
 }
 
