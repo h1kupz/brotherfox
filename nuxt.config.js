@@ -14,6 +14,10 @@ export default {
         src: "https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js",
         defer: true,
       },
+      {
+        hid: "netlify",
+        src: "https://identity.netlify.com/v1/netlify-identity-widget.js",
+      },
     ],
     htmlAttrs: {
       lang: "en",
