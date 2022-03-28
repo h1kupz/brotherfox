@@ -21,7 +21,12 @@
       :key="image.id"
       v-bind:class="image.class"
     >
-      <img class="fox-image" v-bind:src="image.url" v-bind:alt="image.alt" />
+      <img
+        class="fox-image"
+        v-bind:src="image.url"
+        v-bind:alt="image.alt"
+        v-bind:class="image.class"
+      />
     </div>
 
     <p
@@ -45,7 +50,7 @@ export default {
         {
           url: "https://i.stack.imgur.com/Vkq2a.png",
           alt: "",
-          class: "hidden sm:block rounded-tr-full",
+          class: "hidden sm:block",
         },
         {
           url: "https://scontent-sin6-3.xx.fbcdn.net/v/t1.6435-9/151966159_762049921105880_9139072014226160453_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=9267fe&_nc_ohc=KWpqxdiOlV0AX8o8GTx&_nc_ht=scontent-sin6-3.xx&oh=00_AT8m__Xf1L6OyLqeFlJjLKZ0z_zOqoUQe0rWxLeU7m3SMg&oe=62634928",
@@ -60,7 +65,7 @@ export default {
         {
           url: "https://i.stack.imgur.com/Vkq2a.png",
           alt: "",
-          class: "hidden sm:block rounded-br-full",
+          class: "hidden md:block",
         },
         {
           url: "https://scontent-sin6-4.xx.fbcdn.net/v/t39.30808-6/239253297_868988577078680_8886284067170864549_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=9267fe&_nc_ohc=bkhu1GlPZV0AX_vfR7C&_nc_ht=scontent-sin6-4.xx&oh=00_AT-dQOlok0Ei1SdUEqoXY6JhhRfaSOZDfAL0AZ8rHsmgPw&oe=62425BB5",
@@ -70,12 +75,17 @@ export default {
         {
           url: "https://i.stack.imgur.com/Vkq2a.png",
           alt: "",
-          class: "hidden sm:block  rounded-tr-full",
+          class: "hidden md:block",
+        },
+        {
+          url: "https://i.stack.imgur.com/Vkq2a.png",
+          alt: "",
+          class: "hidden md:block",
         },
         {
           url: "https://scontent-sin6-2.xx.fbcdn.net/v/t1.6435-9/65201153_379484822695727_229958957119045632_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=y1jiJYHRz-wAX8wXv3-&_nc_oc=AQkUTV95i7YkC0dIehNbqNFnjGuDb9aQls8u0YVZzrUB7jP2ZaS40jyEIreE3NffvBFVWNYCRr5dw7qwvHTwB5pr&_nc_ht=scontent-sin6-2.xx&oh=00_AT_YuILIoVd8TMLAP4P11v38hZ4viGMcXdr3MLLRH8goaw&oe=6262076E",
           alt: "",
-          class: "col-span-2 sm:col-start-1 sm:col-span-1 xl:col-row-4",
+          class: "sm:col-start-1 md:col-start-2 col-span-2 sm:col-span-1",
         },
       ],
     };
