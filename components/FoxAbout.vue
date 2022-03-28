@@ -1,0 +1,103 @@
+<template>
+  <div class="fox-about fox-grid">
+    <div
+      class="self-center fox-mblg sm:mb-0 col-span-2 md:col-span-3 md:self-center lg:col-span-4"
+    >
+      <div class="fox-about-title">
+        <h1 class="text-bone text-center sm:text-left">Brother Fox</h1>
+        <h2 class="text-gold text-center sm:text-left">Barbershop</h2>
+      </div>
+    </div>
+    <p
+      class="text-bone py-4 text-center sm:text-left row-start-3 col-start-1 col-span-2 sm:row-start-2 sm:col-start-2 sm:self-center md:col-start-1 md:col-span-2 md:pr-10 lg:col-span-3"
+    >
+      Brother Fox Barbershop in Cowra offer a truly unique and professional
+      experience for quality styling for your hair and beard.
+    </p>
+
+    <div
+      class="fox-card"
+      v-for="image in images"
+      :key="image.id"
+      v-bind:class="image.class"
+    >
+      <img class="fox-image" v-bind:src="image.url" v-bind:alt="image.alt" />
+    </div>
+
+    <p
+      class="text-bone sm:self-center py-4 text-center sm:text-left col-span-2 lg:row-start-3 lg:col-start-3"
+    >
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste, quaerat?
+    </p>
+  </div>
+</template>
+
+<script>
+export default {
+  data() {
+    return {
+      images: [
+        {
+          url: "https://scontent-sin6-2.xx.fbcdn.net/v/t1.6435-9/123351772_695449751099231_7527031373795945584_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=9267fe&_nc_ohc=_CwneCHCmMMAX_G8Sl-&tn=kZSvGoKk9FgcbAEN&_nc_ht=scontent-sin6-2.xx&oh=00_AT-Zr0ksc9GNjYjhRsthDrPR1jXZLkdYXPmA1rS-nUbTlw&oe=6260D948",
+          alt: "",
+          class: "",
+        },
+        {
+          url: "https://i.stack.imgur.com/Vkq2a.png",
+          alt: "",
+          class: "hidden sm:block rounded-tr-full",
+        },
+        {
+          url: "https://scontent-sin6-3.xx.fbcdn.net/v/t1.6435-9/151966159_762049921105880_9139072014226160453_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=9267fe&_nc_ohc=KWpqxdiOlV0AX8o8GTx&_nc_ht=scontent-sin6-3.xx&oh=00_AT8m__Xf1L6OyLqeFlJjLKZ0z_zOqoUQe0rWxLeU7m3SMg&oe=62634928",
+          alt: "",
+          class: "",
+        },
+        {
+          url: "https://scontent-sin6-3.xx.fbcdn.net/v/t1.6435-9/131382423_727567481220791_5406596896171347569_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=a26aad&_nc_ohc=d6OAJIHoplkAX8gWxhr&_nc_ht=scontent-sin6-3.xx&oh=00_AT8Gwd1xRnG7Y3DW4AHnFUyVm9ZUpsvrhwaHYe4bu7yh3Q&oe=6263D6D1",
+          alt: "",
+          class: "",
+        },
+        {
+          url: "https://i.stack.imgur.com/Vkq2a.png",
+          alt: "",
+          class: "hidden sm:block rounded-br-full",
+        },
+        {
+          url: "https://scontent-sin6-4.xx.fbcdn.net/v/t39.30808-6/239253297_868988577078680_8886284067170864549_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=9267fe&_nc_ohc=bkhu1GlPZV0AX_vfR7C&_nc_ht=scontent-sin6-4.xx&oh=00_AT-dQOlok0Ei1SdUEqoXY6JhhRfaSOZDfAL0AZ8rHsmgPw&oe=62425BB5",
+          alt: "",
+          class: "",
+        },
+        {
+          url: "https://i.stack.imgur.com/Vkq2a.png",
+          alt: "",
+          class: "hidden sm:block  rounded-tr-full",
+        },
+        {
+          url: "https://scontent-sin6-2.xx.fbcdn.net/v/t1.6435-9/65201153_379484822695727_229958957119045632_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=y1jiJYHRz-wAX8wXv3-&_nc_oc=AQkUTV95i7YkC0dIehNbqNFnjGuDb9aQls8u0YVZzrUB7jP2ZaS40jyEIreE3NffvBFVWNYCRr5dw7qwvHTwB5pr&_nc_ht=scontent-sin6-2.xx&oh=00_AT_YuILIoVd8TMLAP4P11v38hZ4viGMcXdr3MLLRH8goaw&oe=6262076E",
+          alt: "",
+          class: "col-span-2 sm:col-start-1 sm:col-span-1 xl:col-row-4",
+        },
+      ],
+    };
+  },
+  mounted() {
+    this.animateOnScroll();
+  },
+
+  methods: {
+    animateOnScroll() {
+      this.$gsap.from(".fox-about", {
+        x: 200,
+        opacity: 0,
+        ease: "slow(0.7, 0.7, false)",
+        scrollTrigger: {
+          trigger: ".fox-about",
+          pin: false,
+          end: "top",
+          scrub: true,
+        },
+      });
+    },
+  },
+};
+</script>
