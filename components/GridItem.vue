@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex items-center rounded-lg h-auto rectangle sm:square sm:h-auto overflow-hidden shadow-fox_d"
+    class="flex items-center rounded-lg h-auto rectangle sm:square sm:h-auto overflow-hidden shadow-fox_d bg-brown"
   >
     <img
       src="https://i.stack.imgur.com/Vkq2a.png"
