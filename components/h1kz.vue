@@ -4,7 +4,7 @@
       class="flex w-72 h-72 sm:w-96 sm:h-96 lg:w-lg lg:h-lg rounded-full bg-cover"
     >
       <svg
-        class="w-full h-full rounded-full cursor-pointer hover:animate-pulse"
+        class="w-full h-full rounded-full animate-pulse-slow"
         version="1.1"
         id="Layer_1"
         x="0px"
