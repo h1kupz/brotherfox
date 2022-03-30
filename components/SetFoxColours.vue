@@ -1,36 +1,45 @@
 <template>
   <div id="fox-grid">
     <h1 class="col-span-full mb-8">Colours</h1>
-    <div class="fox-12grid p-4 rounded-foxlg">
+    <div class="fox-grid gap-0 p-6 rounded-foxlg">
       <div
-        class="bg-brown fox-12grid-item rectangle lg:square rounded-full h-2/3 self-center"
+        class="bg-green fox-grid-item rectangle lg:square h-2/3 self-center"
       />
       <div
-        class="fox-12grid-item col-start-2 col-span-full h-1/4 self-center rounded-foxlg bg-gradient-to-r from-brown to-bone"
+        class="fox-grid-item col-start-2 col-span-full h-1/4 self-center rounded-foxlg bg-gradient-to-r from-green to-bone"
       />
-      <h2 class="text-brown col-start-2 col-span-full">
-        #231F20 <span class="capitalize">Raisin Black</span>
-      </h2>
+      <h3 class="text-green col-start-2 col-span-full">
+        #1E292B <span class="font-normal">Charelstone Green</span>
+      </h3>
       <div
-        class="bg-gold fox-12grid-item rectangle lg:square rounded-full h-2/3 self-center row-start-3"
+        class="bg-brown fox-grid-item rectangle lg:square h-2/3 self-center"
       />
       <div
-        class="fox-12grid-item col-start-2 col-span-full h-1/4 self-center rounded-foxlg bg-gradient-to-r from-gold to-bone"
+        class="fox-grid-item col-start-2 col-span-full h-1/4 self-center rounded-foxlg bg-gradient-to-r from-brown to-bone"
       />
-      <h2 class="text-gold col-start-2 col-span-full">
-        #AC9E7B <span class="capitalize">Grulle</span>
-      </h2>
+      <h3 class="text-brown col-start-2 col-span-full">
+        #231F20 <span class="font-normal">Raisin Black</span>
+      </h3>
+      <div
+        class="bg-gold fox-grid-item rectangle lg:square h-2/3 self-center"
+      />
+      <div
+        class="fox-grid-item col-start-2 col-span-full h-1/4 self-center rounded-foxlg bg-gradient-to-r from-gold to-bone"
+      />
+      <h3 class="text-gold col-start-2 col-span-full">
+        #AC9E7B <span class="font-normal">Grulle</span>
+      </h3>
     </div>
-    <div class="fox-12grid bg-brown p-4 rounded-foxlg mt-4">
+    <div class="fox-grid bg-brown gap-0 p-6 rounded-foxlg mt-4">
       <div
-        class="bg-bone fox-12grid-item rectangle lg:square rounded-full h-2/3 self-center"
+        class="bg-bone fox-grid-item rectangle lg:square h-2/3 self-center"
       />
       <div
-        class="fox-12grid-item col-start-2 col-span-full h-1/4 self-center rounded-foxlg bg-gradient-to-r from-bone to-brown"
+        class="fox-grid-item col-start-2 col-span-full h-1/4 self-center rounded-foxlg bg-gradient-to-r from-bone to-brown"
       />
-      <h2 class="text-bone col-start-2 col-span-full">
-        #F6F1DD <span class="capitalize">Eggshell</span>
-      </h2>
+      <h3 class="text-bone col-start-2 col-span-full">
+        #F6F1DD <span class="font-normal">Eggshell</span>
+      </h3>
     </div>
   </div>
 </template>

@@ -15,14 +15,15 @@ module.exports = {
       gold: "#AC9E7B",
       bone: "#F6F1DD",
       brown: "#231F20",
+      green: "#1E292B",
     },
     fontFamily: {
-      serif: ["Playfair Display", "serif"],
+      serif: ["Gelasio", "serif"],
       sans: ['"Montserrat"', "sans-serif"],
     },
     extend: {
       boxShadow: {
-        fox_d: "2px 10px 10px -5px rgba(35, 31, 32, 0.5)",
+        fox_d: "2px 10px 10px -5px rgba(30, 41, 43, 0.5)",
         fox_l: "2px 10px 10px -5px rgba(172,158,123, 0.25)",
       },
       animation: {

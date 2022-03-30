@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gelasio:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -10,7 +10,7 @@
     @apply bg-gold;
   }
   header {
-    @apply fixed top-0 z-30 w-full fox-px backdrop-filter backdrop-blur-sm bg-opacity-90;
+    @apply fixed top-0 z-30 w-full fox-px shadow-fox_d bg-bone backdrop-filter backdrop-blur bg-opacity-50;
   }
   footer {
     @apply z-30 w-full fox-px;
@@ -19,19 +19,28 @@
     @apply flex items-center justify-between  mx-auto max-w-screen-xl flex-wrap py-4 /* fox-px bg-brown rounded-b-foxlg shadow-fox_d */;
   }
   section {
-    @apply w-full min-h-screen flex pt-28 pb-20 fox-px mb-2;
+    @apply w-full min-h-screen flex pt-28 pb-20 fox-px mb-1;
   }
   content {
     @apply grid w-full items-start mx-auto max-w-screen-xl;
   }
   h1 {
-    @apply font-serif font-bold uppercase tracking-wider text-3xl sm:text-4xl md:text-5xl lg:text-6xl;
+    @apply font-serif font-bold uppercase text-gold text-2xl sm:text-3xl md:text-4xl lg:text-6xl;
   }
   h2 {
-    @apply font-sans font-medium text-gold uppercase text-xl sm:text-2xl md:text-3xl;
+    @apply font-sans font-bold text-green uppercase tracking-wide text-xl sm:text-2xl lg:text-3xl;
+  }
+  h3 {
+    @apply font-sans font-bold text-gold uppercase tracking-wide text-lg sm:text-xl lg:text-2xl;
+  }
+  h4 {
+    @apply font-sans font-semibold uppercase tracking-wide text-gold sm:text-lg lg:text-xl;
   }
   p {
-    @apply font-sans text-sm md:text-base lg:text-lg tracking-wide;
+    @apply font-sans text-green text-sm sm:text-base lg:text-lg tracking-wide;
+  }
+  h5 {
+    @apply font-bold tracking-wide uppercase text-xs sm:text-sm text-gold;
   }
   input {
     @apply block w-full p-2 text-gold bg-bone bg-clip-padding rounded-foxsm transition ease-in-out fox-mb focus:text-brown focus:bg-bone focus:outline-none;
@@ -57,13 +66,13 @@
   .fox-btn {
     @apply px-3 py-2 bg-gold text-brown leading-tight uppercase rounded-foxsm hover:bg-bone hover:text-gold transition duration-150 ease-in-out;
   }
-  .fox-grid {
+  .fox-grid-2 {
     @apply grid gap-2 sm:gap-3 grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6;
   }
-  .fox-12grid {
+  .fox-grid {
     @apply grid gap-2 sm:gap-3 grid-cols-4 md:grid-cols-8 lg:grid-cols-12;
   }
-  .fox-12grid-item {
+  .fox-grid-item {
     @apply bg-gold rounded-foxsm h-auto w-auto;
   }
   .fox-col-span-124 {

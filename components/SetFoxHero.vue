@@ -1,12 +1,16 @@
 <template>
-  <div class="flex items-center h-screen justify-center mb-2 bg-cover">
-    <div class="flex w-96 h-96 rounded-full bg-cover logo shadow-xl"></div>
+  <div class="flex items-center h-screen justify-center mb-1 bg-cover">
+    <div
+      class="flex w-96 h-96 p-6 rounded-full bg-green shadow-fox_d overflow-hidden"
+    >
+      <img class="self-center" src="../assets/images/FoxLogoGreen.png" alt="" />
+    </div>
   </div>
 </template>
 
 <style scoped>
 .logo {
-  background-image: url("https://scontent-sin6-2.xx.fbcdn.net/v/t1.6435-9/103436428_589826921661515_7218860544749257945_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=v-xk9dj5bVAAX_zcUUn&_nc_ht=scontent-sin6-2.xx&oh=00_AT9ewiMEVrNhaGWSo-_doeMnhepWzulup7vAx6PL-UOFgg&oe=625FCDD1");
+  background-image: url("../assets/images/FoxLogoGreen.png");
 }
 
 .custom-img {
