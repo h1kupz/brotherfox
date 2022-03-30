@@ -1,6 +1,6 @@
 <template>
   <main id="home" class="overflow-hidden">
-    <h1kz class="bg-brown" />
+    <h1kz class="bg-[#101119]" />
   </main>
 </template>
 

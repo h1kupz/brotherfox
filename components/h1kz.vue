@@ -1,8 +1,6 @@
 <template>
   <div class="flex items-center h-screen justify-center mb-2 bg-cover">
-    <div
-      class="flex w-72 h-72 sm:w-96 sm:h-96 lg:w-lg lg:h-lg rounded-full bg-cover"
-    >
+    <div class="flex w-72 h-72 sm:w-96 sm:h-96 p-0 rounded-full bg-cover">
       <svg
         class="w-full h-full rounded-full animate-pulse-slow"
         version="1.1"
@@ -30,27 +28,27 @@
           >
             <stop
               offset="0"
-              style="stop-color: #ac9e7b; stop-opacity: 1"
+              style="stop-color: #fc019c; stop-opacity: 1"
               id="stop4"
             />
             <stop
               offset="0.5808"
-              style="stop-color: #ac9e7b; stop-opacity: 0.41960785"
+              style="stop-color: #fc019c; stop-opacity: 0.41960785"
               id="stop6"
             />
             <stop
               offset="0.79"
-              style="stop-color: #ac9e7b; stop-opacity: 0.21176471"
+              style="stop-color: #fc019c; stop-opacity: 0.21176471"
               id="stop8"
             />
             <stop
               offset="0.9386"
-              style="stop-color: #121214; stop-opacity: 6.139398e-2"
+              style="stop-color: #101119; stop-opacity: 6.139398e-2"
               id="stop10"
             />
             <stop
               offset="1"
-              style="stop-color: #ac9e7b; stop-opacity: 0"
+              style="stop-color: #101119; stop-opacity: 0"
               id="stop12"
             />
           </radialGradient>
