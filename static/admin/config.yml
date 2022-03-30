@@ -12,7 +12,7 @@ collections:
     format: "frontmatter"
     create: true
     identifier_field: name
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    slug: "{{slug}}"
     editor:
       preview: false
     fields:
