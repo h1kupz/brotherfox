@@ -2,7 +2,7 @@
   <footer
     class="flex items-center justify-between mx-auto max-w-screen-xl flex-wrap py-4 px-6 sm:px-8"
   >
-    <p class="text-sm text-gold">
+    <p class="text-sm text-green">
       <span class="text-lg relative top-0.5">&copy;</span>
       {{ new Date().getFullYear() }} Brother Fox
     </p>
@@ -34,27 +34,27 @@
         >
           <stop
             offset="0"
-            style="stop-color: #ac9e7b; stop-opacity: 1"
+            style="stop-color: #1e292b; stop-opacity: 1"
             id="stop4"
           />
           <stop
             offset="0.5808"
-            style="stop-color: #ac9e7b; stop-opacity: 0.41960785"
+            style="stop-color: #1e292b; stop-opacity: 0.41960785"
             id="stop6"
           />
           <stop
             offset="0.79"
-            style="stop-color: #ac9e7b; stop-opacity: 0.21176471"
+            style="stop-color: #1e292b; stop-opacity: 0.21176471"
             id="stop8"
           />
           <stop
             offset="0.9386"
-            style="stop-color: #121214; stop-opacity: 6.139398e-2"
+            style="stop-color: #f6f1dd; stop-opacity: 6.139398e-2"
             id="stop10"
           />
           <stop
             offset="1"
-            style="stop-color: #ac9e7b; stop-opacity: 0"
+            style="stop-color: #1e292b; stop-opacity: 0"
             id="stop12"
           />
         </radialGradient>

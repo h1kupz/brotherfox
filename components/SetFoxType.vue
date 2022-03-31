@@ -1,5 +1,5 @@
 <template>
-  <div id="fox-grid">
+  <div class="fox-type">
     <h1 class="col-span-full mb-8">Type</h1>
     <div class="fox-grid">
       <h1>h1</h1>
@@ -36,30 +36,29 @@
   </div>
 </template>
 
-//
 <script>
-// export default {
-//   data() {
-//     return {};
-//   },
-//   mounted() {
-//     this.animateOnScroll();
-//   },
+export default {
+  data() {
+    return {};
+  },
+  mounted() {
+    this.animateOnScroll();
+  },
 
-//   methods: {
-//     animateOnScroll() {
-//       this.$gsap.from("#fox-grid", {
-//         y: 200,
-//         ease: "slow(0.7, 0.7, false)",
-//         scrollTrigger: {
-//           trigger: "#fox-grid",
-//           pin: false,
-//           end: "top",
-//           scrub: true,
-//         },
-//       });
-//     },
-//   },
-// };
-//
+  methods: {
+    animateOnScroll() {
+      this.$gsap.from(".fox-type", {
+        y: 200,
+        // opacity: 0,
+        ease: "slow(0.7, 0.7, false)",
+        scrollTrigger: {
+          trigger: ".fox-type",
+          pin: false,
+          end: "top",
+          scrub: true,
+        },
+      });
+    },
+  },
+};
 </script>

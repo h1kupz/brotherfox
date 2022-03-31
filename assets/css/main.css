@@ -28,7 +28,7 @@
     @apply font-sans text-green text-sm sm:text-base lg:text-lg tracking-wide;
   }
   h1 {
-    @apply font-serif font-bold uppercase text-gold text-2xl sm:text-3xl md:text-4xl lg:text-6xl;
+    @apply font-sans font-bold uppercase text-gold text-2xl sm:text-3xl md:text-4xl lg:text-6xl;
   }
   h2 {
     @apply font-sans font-bold text-green uppercase tracking-wide text-xl sm:text-2xl lg:text-3xl;

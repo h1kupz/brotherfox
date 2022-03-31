@@ -17,13 +17,13 @@
       </content>
     </section>
     <section id="grid" class="bg-bone">
-      <content>
+      <content class="fox-scroll">
         <SetFoxGrid />
       </content>
     </section>
-    <section id="cms" class="bg-bone">
-      <content>
-        <div class="fox-grid">
+    <section class="bg-bone">
+      <content id="cms">
+        <div class="fox-grid fox-cms">
           <h1 class="col-span-full">CMS</h1>
           <p class="col-span-full mb-4">
             Example of an editable section. Team members can be added, edited
@@ -56,7 +56,7 @@
   </main>
 </template>
 
-<script lang="ts">
+<script>
 import Vue from "vue";
 
 export default Vue.extend({
@@ -69,6 +69,25 @@ export default Vue.extend({
     return {
       crew,
     };
+  },
+  mounted() {
+    this.animateOnScroll();
+  },
+
+  methods: {
+    animateOnScroll() {
+      this.$gsap.from(".fox-cms", {
+        y: 200,
+        // opacity: 0,
+        ease: "slow(0.7, 0.7, false)",
+        scrollTrigger: {
+          trigger: ".fox-cms",
+          pin: false,
+          end: "top",
+          scrub: true,
+        },
+      });
+    },
   },
 });
 </script>
