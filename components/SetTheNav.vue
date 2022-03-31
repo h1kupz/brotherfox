@@ -8,11 +8,11 @@
         >
           Brother Fox
         </div>
-        <div
+        <h4
           class="uppercase font-medium text-gold tracking-widest leading-3 hover:text-gold"
         >
           Barbershop
-        </div>
+        </h4>
       </div>
     </a>
     <p>

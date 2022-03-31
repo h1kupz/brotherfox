@@ -1,7 +1,9 @@
 <template>
   <div class="fox-grid fox-images">
     <h1 class="col-span-full">Images</h1>
-    <p class="col-span-full mb-4">Example treatment of images for the site.</p>
+    <p class="col-span-full mb-4 text-bone">
+      Example treatment of images for the site.
+    </p>
     <div
       class="fox-card col-span-4 sm:col-span-2 md-col-span-1 lg:col-span-3"
       v-for="image in images"

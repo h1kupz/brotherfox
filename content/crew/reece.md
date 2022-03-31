@@ -1,6 +1,6 @@
 ---
 
-order: 02
+order: 03
 name: Reece
 position: Barber
 bio: Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque aut, quae dignissimos saepe hic culpa recusandae aliquam? Vel ducimus expedita alias dolores accusantium saepe.

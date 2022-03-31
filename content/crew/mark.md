@@ -1,7 +1,7 @@
 ---
 order: 01
 name: Mark
-position: Owner
+position: Barber
 bio: Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo,
   reprehenderit iusto! Pariatur laborum quam aspernatur? Et necessitatibus fuga
   aut corrupti.

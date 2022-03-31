@@ -1,5 +1,7 @@
 <template>
-  <div class="flex items-center h-screen justify-center mb-1 bg-cover">
+  <div
+    class="flex items-center h-screen justify-center mb-1 bg-cover custom-img"
+  >
     <div
       class="flex w-96 h-96 p-6 rounded-full bg-green shadow-fox_d overflow-hidden"
     >
@@ -7,6 +9,32 @@
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  data() {
+    return {};
+  },
+  mounted() {
+    this.parallax();
+  },
+
+  methods: {
+    parallax() {
+      this.$gsap.from(".custom-img", {
+        backgroundPosition: "50% 100% ",
+        ease: "none",
+        scrollTrigger: {
+          trigger: ".custom-img",
+          start: "top bottom",
+          end: "bottom top",
+          scrub: true,
+        },
+      });
+    },
+  },
+};
+</script>
 
 <style scoped>
 .logo {

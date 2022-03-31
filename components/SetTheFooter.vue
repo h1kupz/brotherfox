@@ -1,6 +1,6 @@
 <template>
   <footer
-    class="flex items-center justify-between mx-auto max-w-screen-xl flex-wrap py-4 px-6 sm:px-8"
+    class="flex items-center justify-between mx-auto max-w-screen-xl flex-wrap py-4 px-0"
   >
     <p class="text-sm text-green">
       <span class="text-lg relative top-0.5">&copy;</span>
@@ -8,7 +8,7 @@
     </p>
 
     <svg
-      class="w-10 h-10 rounded-full cursor-pointer hover:animate-pulse"
+      class="w-10 h-10 rounded-full cursor-pointer animate-pulse-slow"
       version="1.1"
       id="Layer_1"
       x="0px"

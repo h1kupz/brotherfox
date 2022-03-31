@@ -52,10 +52,10 @@
 
 @layer components {
   .fox-px {
-    @apply px-6 sm:px-8;
+    @apply px-2 sm:px-4;
   }
   .fox-py {
-    @apply py-6 sm:py-8;
+    @apply py-2 sm:py-4;
   }
   .fox-mb {
     @apply mb-2 sm:mb-3;
