@@ -1,5 +1,5 @@
 <template>
-  <div class="fox-about fox-grid">
+  <div class="fox-about fox-grid-2">
     <div
       class="self-center fox-mblg sm:mb-0 col-span-2 md:col-span-3 md:self-center lg:col-span-4"
     >
@@ -68,7 +68,7 @@ export default {
           class: "hidden md:block",
         },
         {
-          url: "https://scontent-sin6-4.xx.fbcdn.net/v/t39.30808-6/239253297_868988577078680_8886284067170864549_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=9267fe&_nc_ohc=bkhu1GlPZV0AX_vfR7C&_nc_ht=scontent-sin6-4.xx&oh=00_AT-dQOlok0Ei1SdUEqoXY6JhhRfaSOZDfAL0AZ8rHsmgPw&oe=62425BB5",
+          url: "https://scontent-sin6-2.xx.fbcdn.net/v/t1.6435-9/126983913_712506902726849_358693148743240005_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=9267fe&_nc_eui2=AeEbDwZUJH5yzrsJj8iQd-z7Iq054smjPEUirTniyaM8RRU0ScJjfDVuLofSObWjOup4ahVktGjiibwknSz1RdjJ&_nc_ohc=VkoJGXnOmpEAX94WytN&_nc_ht=scontent-sin6-2.xx&oh=00_AT_CsQIF5EiPf4RB_ADGusvB_CKftvqaSPafssCUvM1xwQ&oe=62697DDF",
           alt: "",
           class: "",
         },

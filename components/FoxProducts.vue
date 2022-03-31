@@ -1,7 +1,7 @@
 <template>
   <div class="fox-products">
     <h1 class="fox-crew-title text-bone fox-mblg">Products</h1>
-    <div class="fox-grid">
+    <div class="fox-grid-2">
       <div
         class="fox-card square"
         v-for="product in products"

@@ -1,6 +1,6 @@
 <template>
   <footer
-    class="flex items-center justify-between bg-brown rounded-t-foxlg mx-auto max-w-screen-xl flex-wrap py-4 px-6 sm:px-8 shadow-fox_d"
+    class="flex items-center justify-between rounded-t-foxlg mx-auto max-w-screen-xl flex-wrap py-4 px-6 sm:px-8 shadow-fox_d"
   >
     <p class="text-sm text-gold">
       <span class="text-lg relative top-0.5">&copy;</span>

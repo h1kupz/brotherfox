@@ -1,14 +1,14 @@
 <template>
   <div class="fox-contact">
     <h1 class="fox-contact-title text-brown fox-mblg">Contact</h1>
-    <div class="fox-form fox-grid">
+    <div class="fox-form fox-grid-2">
       <div class="col-span-2 sm:col-span-1 md:col-span-2">
-        <h2 class="">Brother Fox</h2>
+        <h2 class="text-gold">Brother Fox</h2>
         <p class="text-bone py-4">112 Kendal St, Cowra NSW 2794, Australia</p>
         <p class="text-gold pb-4">+61 433 767 527</p>
       </div>
       <div class="col-span-2 sm:col-span-2 sm:ml-16 lg:ml-0 lg:row-start-2">
-        <h2>Hours</h2>
+        <h2 class="text-gold">Hours</h2>
         <p class="text-gold py-4">
           Sunday:<span class="text-bone float-right">Closed</span><br />
           Monday:<span class="text-bone float-right">Closed</span><br />

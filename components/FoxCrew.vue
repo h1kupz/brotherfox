@@ -2,7 +2,7 @@
   <div class="fox-crew">
     <h1 class="fox-crew-title text-brown fox-mblg">Crew</h1>
     <div
-      class="fox-form fox-grid gap-5 py-4 px-4 bg-brown fox-mb"
+      class="fox-form fox-grid-2 gap-5 py-4 px-4 bg-brown fox-mb"
       v-for="person in crew"
       :key="person.id"
     >
@@ -10,7 +10,7 @@
         class="self-center row-start-1 col-span-1 sm:col-span-2 md:col-span-3 lg:col-span-5"
         v-bind:class="person.textclass"
       >
-        <h2>{{ person.name }}</h2>
+        <h2 class="text-gold">{{ person.name }}</h2>
         <p class="text-bone py-4">
           {{ person.info }}
         </p>

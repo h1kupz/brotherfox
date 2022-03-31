@@ -4,7 +4,7 @@
     <a href="#">
       <div class="grid justify-items-center">
         <div
-          class="text-2xl font-serif uppercase font-semibold text-bone tracking-wider hover:text-gold"
+          class="text-2xl font-serif uppercase font-semibold text-brown tracking-wider hover:text-gold"
         >
           Brother Fox
         </div>
@@ -23,7 +23,7 @@
     >
       <a v-for="page in menu" :key="page.id" v-bind:href="page.url">
         <button
-          class="w-full md:w-auto pl-0 md:pl-10 py-8 md:py-0 text-xl md:text-xs uppercase font-semibold text-bone tracking-widest hover:text-gold"
+          class="w-full md:w-auto pl-0 md:pl-10 py-8 md:py-0 text-xl md:text-xs uppercase font-semibold text-brown tracking-widest hover:text-gold"
           x-on:click="open = !close"
         >
           {{ page.page }}
