@@ -21,8 +21,8 @@
         <SetFoxGrid />
       </content>
     </section>
-    <section class="bg-bone">
-      <content id="cms">
+    <section id="cms" class="bg-bone">
+      <content>
         <div class="fox-grid fox-cms">
           <h1 class="col-span-full">CMS</h1>
           <p class="col-span-full mb-4">
@@ -70,24 +70,24 @@ export default Vue.extend({
       crew,
     };
   },
-  mounted() {
-    this.animateOnScroll();
-  },
+  // mounted() {
+  //   this.animateOnScroll();
+  // },
 
-  methods: {
-    animateOnScroll() {
-      this.$gsap.from(".fox-cms", {
-        y: 200,
-        // opacity: 0,
-        ease: "slow(0.7, 0.7, false)",
-        scrollTrigger: {
-          trigger: ".fox-cms",
-          pin: false,
-          end: "top",
-          scrub: true,
-        },
-      });
-    },
-  },
+  // methods: {
+  //   animateOnScroll() {
+  //     this.$gsap.from(".fox-cms", {
+  //       y: 200,
+  //       // opacity: 0,
+  //       ease: "slow(0.7, 0.7, false)",
+  //       scrollTrigger: {
+  //         trigger: ".fox-cms",
+  //         pin: false,
+  //         end: "top",
+  //         scrub: true,
+  //       },
+  //     });
+  //   },
+  // },
 });
 </script>
