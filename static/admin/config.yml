@@ -16,13 +16,9 @@ collections:
     editor:
       preview: false
     fields:
+      - { label: "Order", name: "order", widget: "number" }
       - { label: "Name", name: "name", widget: "string" }
       # - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Position", name: "position", widget: "string" }
       - { label: "Bio", name: "bio", widget: "markdown" }
-      - {
-          label: "Featured Image",
-          name: "thumbnail",
-          widget: "image",
-          choose_url: true,
-        }
+      - { label: "Image", name: "image", widget: "image", choose_url: true }

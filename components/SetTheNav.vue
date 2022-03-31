@@ -50,7 +50,9 @@ export default {
         { page: "Home", url: "#home" },
         { page: "Colours", url: "#colours" },
         { page: "Type", url: "#type" },
+        { page: "Images", url: "#images" },
         { page: "Grid", url: "#grid" },
+        { page: "CMS", url: "#cms" },
       ],
     };
   },

@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Gelasio:wght@400;500;600;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -24,6 +24,9 @@
   content {
     @apply grid w-full items-start mx-auto max-w-screen-xl;
   }
+  p {
+    @apply font-sans text-green text-sm sm:text-base lg:text-lg tracking-wide;
+  }
   h1 {
     @apply font-serif font-bold uppercase text-gold text-2xl sm:text-3xl md:text-4xl lg:text-6xl;
   }
@@ -35,9 +38,6 @@
   }
   h4 {
     @apply font-sans font-semibold uppercase tracking-wide text-gold sm:text-lg lg:text-xl;
-  }
-  p {
-    @apply font-sans text-green text-sm sm:text-base lg:text-lg tracking-wide;
   }
   h5 {
     @apply font-bold tracking-wide uppercase text-xs sm:text-sm text-gold;

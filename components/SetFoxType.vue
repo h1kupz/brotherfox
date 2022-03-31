@@ -1,6 +1,6 @@
 <template>
   <div id="fox-grid">
-    <h1 class="col-span-full text-gold mb-8">Type</h1>
+    <h1 class="col-span-full mb-8">Type</h1>
     <div class="fox-grid">
       <h1>h1</h1>
       <h1 class="col-start-2 lg:col-start-3 col-span-full">Heading 1</h1>

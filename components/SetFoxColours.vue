@@ -30,12 +30,12 @@
         #AC9E7B <span class="font-normal">Grulle</span>
       </h3>
     </div>
-    <div class="fox-grid bg-brown gap-0 p-6 rounded-foxlg mt-4">
+    <div class="fox-grid bg-green gap-0 p-6 rounded-foxlg mt-4">
       <div
         class="bg-bone fox-grid-item rectangle lg:square h-2/3 self-center"
       />
       <div
-        class="fox-grid-item col-start-2 col-span-full h-1/4 self-center rounded-foxlg bg-gradient-to-r from-bone to-brown"
+        class="fox-grid-item col-start-2 col-span-full h-1/4 self-center rounded-foxlg bg-gradient-to-r from-bone to-green"
       />
       <h3 class="text-bone col-start-2 col-span-full">
         #F6F1DD <span class="font-normal">Eggshell</span>
