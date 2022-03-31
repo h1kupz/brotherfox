@@ -53,24 +53,5 @@ export default {
       ],
     };
   },
-  // mounted() {
-  //   this.animateOnScroll();
-  // },
-
-  // methods: {
-  //   animateOnScroll() {
-  //     this.$gsap.from(".fox-images", {
-  //       y: 200,
-  //       // opacity: 0,
-  //       ease: "slow(0.7, 0.7, false)",
-  //       scrollTrigger: {
-  //         trigger: ".fox-images",
-  //         pin: false,
-  //         end: "top",
-  //         scrub: true,
-  //       },
-  //     });
-  //   },
-  // },
 };
 </script>
