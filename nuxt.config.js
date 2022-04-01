@@ -10,6 +10,10 @@ export default {
     title: "Brother Fox",
     script: [
       {
+        hid: "alpine intersect",
+        src: "https://unpkg.com/@alpinejs/intersect@3.x.x/dist/cdn.min.js",
+      },
+      {
         hid: "alpine",
         src: "https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js",
         defer: true,

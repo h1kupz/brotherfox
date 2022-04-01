@@ -1,28 +1,48 @@
 <template>
-  <main id="home">
+  <main id="home" x-data>
     <SetFoxHero class="bg-bone" />
     <section id="colours" class="bg-bone">
-      <content>
+      <content
+        class="opacity-0 translate-y-1/4 duration-1000"
+        x-intersect.threshold.1="$el.classList.add('opacity-100', 'translate-y-0')"
+        x-intersect:leave="$el.classList.remove('opacity-100', 'translate-y-0')"
+      >
         <SetFoxColours />
       </content>
     </section>
     <section id="type" class="bg-bone">
-      <content>
+      <content
+        class="opacity-0 translate-y-1/4 duration-1000"
+        x-intersect.threshold.1="$el.classList.add('opacity-100', 'translate-y-0')"
+        x-intersect:leave="$el.classList.remove('opacity-100', 'translate-y-0')"
+      >
         <SetFoxType />
       </content>
     </section>
     <section id="images" class="bg-green">
-      <content>
+      <content
+        class="opacity-0 translate-y-1/4 duration-1000"
+        x-intersect.threshold.1="$el.classList.add('opacity-100', 'translate-y-0')"
+        x-intersect:leave.margin.0px.0px.250px.0px="$el.classList.remove('opacity-100', 'translate-y-0')"
+      >
         <SetFoxImages />
       </content>
     </section>
     <section id="grid" class="bg-bone">
-      <content>
+      <content
+        class="opacity-0 translate-y-1/4 duration-1000"
+        x-intersect.threshold.1="$el.classList.add('opacity-100', 'translate-y-0')"
+        x-intersect:leave="$el.classList.remove('opacity-100', 'translate-y-0')"
+      >
         <SetFoxGrid />
       </content>
     </section>
     <section id="cms" class="bg-bone">
-      <content>
+      <content
+        class="opacity-0 translate-y-1/4 duration-1000"
+        x-intersect.threshold.1="$el.classList.add('opacity-100', 'translate-y-0')"
+        x-intersect:leave="$el.classList.remove('opacity-100', 'translate-y-0')"
+      >
         <div class="fox-grid">
           <h1 class="col-span-full">CMS</h1>
           <p class="col-span-full mb-4">
