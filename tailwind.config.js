@@ -33,6 +33,10 @@ module.exports = {
         foxsm: "6px",
         foxlg: "12px",
       },
+      padding: {
+        "1/3": "33.33333%",
+        "2/3": "66.66667%",
+      },
     },
   },
   variants: {

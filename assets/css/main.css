@@ -52,10 +52,10 @@
 
 @layer components {
   .fox-px {
-    @apply px-2 sm:px-4;
+    @apply px-4;
   }
   .fox-py {
-    @apply py-2 sm:py-4;
+    @apply py-4;
   }
   .fox-mb {
     @apply mb-2 sm:mb-3;
@@ -82,10 +82,10 @@
     @apply sm:col-span-1 md:col-span-3 lg:col-span-5;
   }
   .fox-card {
-    @apply flex items-center rounded-foxlg h-auto rectangle sm:square sm:h-auto overflow-hidden bg-gold shadow-fox_l;
+    @apply flex items-center rounded-foxsm overflow-hidden bg-gold shadow-fox_l;
   }
   .fox-image {
-    @apply rounded-foxlg object-cover h-full w-full self-center sepia;
+    @apply object-cover h-full w-full self-center sepia;
   }
   .fox-form {
     @apply rounded-foxlg bg-brown shadow-fox_d fox-px fox-py;

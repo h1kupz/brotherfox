@@ -1,5 +1,5 @@
 <template>
-  <main id="home" class="overflow-hidden">
+  <main id="home">
     <SetFoxHero class="bg-bone" />
     <section id="colours" class="bg-bone">
       <content>
@@ -17,13 +17,13 @@
       </content>
     </section>
     <section id="grid" class="bg-bone">
-      <content class="fox-scroll">
+      <content>
         <SetFoxGrid />
       </content>
     </section>
     <section id="cms" class="bg-bone">
       <content>
-        <div class="fox-grid fox-cms">
+        <div class="fox-grid">
           <h1 class="col-span-full">CMS</h1>
           <p class="col-span-full mb-4">
             Example of an editable section. Team members can be added, edited
@@ -36,11 +36,11 @@
             class="fox-form bg-green col-span-full md:col-span-4"
           >
             <div class="grid gap-5 md:gap-8 grid-cols-3 md:grid-cols-1">
-              <div class="fox-card square">
+              <div class="fox-card relative h-0 pb-2/3 pt-2/3 md:pt-0">
                 <img
                   v-bind:src="crew.image"
                   v-bind:alt="crew.name"
-                  class="fox-image"
+                  class="fox-image absolute inset-0 w-full h-full md:object-top"
                 />
               </div>
               <div class="col-span-2 md:col-span-1">
@@ -56,7 +56,7 @@
   </main>
 </template>
 
-<script>
+<script lang="ts">
 import Vue from "vue";
 
 export default Vue.extend({
@@ -70,24 +70,5 @@ export default Vue.extend({
       crew,
     };
   },
-  // mounted() {
-  //   this.animateOnScroll();
-  // },
-
-  // methods: {
-  //   animateOnScroll() {
-  //     this.$gsap.from(".fox-cms", {
-  //       y: 200,
-  //       // opacity: 0,
-  //       ease: "slow(0.7, 0.7, false)",
-  //       scrollTrigger: {
-  //         trigger: ".fox-cms",
-  //         pin: false,
-  //         end: "top",
-  //         scrub: true,
-  //       },
-  //     });
-  //   },
-  // },
 });
 </script>

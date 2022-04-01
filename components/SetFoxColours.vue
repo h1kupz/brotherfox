@@ -1,5 +1,5 @@
 <template>
-  <div class="fox-colours">
+  <div>
     <h1 class="col-span-full mb-8">Colours</h1>
     <div class="fox-grid gap-0 p-6 rounded-foxlg">
       <div
