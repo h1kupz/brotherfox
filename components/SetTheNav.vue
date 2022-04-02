@@ -51,7 +51,6 @@ export default {
         { page: "Colours", url: "#colours" },
         { page: "Type", url: "#type" },
         { page: "Images", url: "#images" },
-        { page: "Grid", url: "#grid" },
         { page: "CMS", url: "#cms" },
       ],
     };
