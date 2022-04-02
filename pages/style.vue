@@ -19,7 +19,7 @@
         <SetFoxType />
       </content>
     </section>
-    <section id="images" class="bg-green">
+    <section id="images" class="bg-bone">
       <content
         class="opacity-0 translate-y-1/4 duration-1000"
         x-intersect.threshold.1="$el.classList.add('opacity-100', 'translate-y-0')"
@@ -55,12 +55,16 @@
             :key="crew.slug"
             class="fox-form bg-green col-span-full md:col-span-4"
           >
-            <div class="grid gap-5 md:gap-8 grid-cols-3 md:grid-cols-1">
-              <div class="fox-card relative h-0 pb-2/3 pt-2/3 md:pt-0">
+            <div
+              class="grid gap-5 md:gap-8 grid-cols-1 sm:grid-cols-3 md:grid-cols-1"
+            >
+              <div
+                class="fox-card relative h-0 w-full pb-2/3 pt-0 sm:pt-2/3 md:pt-0 lg:pt-2/3 col-span-2 sm:col-span-1"
+              >
                 <img
                   v-bind:src="crew.image"
                   v-bind:alt="crew.name"
-                  class="fox-image absolute inset-0 w-full h-full md:object-top"
+                  class="fox-image absolute inset-0 w-full h-full object-top"
                 />
               </div>
               <div class="col-span-2 md:col-span-1">

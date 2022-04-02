@@ -1,11 +1,9 @@
 <template>
   <div class="fox-grid fox-images">
     <h1 class="col-span-full">Images</h1>
-    <p class="col-span-full mb-4 text-bone">
-      Example treatment of images for the site.
-    </p>
+    <p class="col-span-full mb-4">Example treatment of images for the site.</p>
     <div
-      class="fox-card rectangle sm:square col-span-4 sm:col-span-2 md-col-span-1 lg:col-span-3"
+      class="fox-card square col-span-2 md-col-span-1 lg:col-span-3"
       v-for="image in images"
       :key="image.id"
       v-bind:class="image.class"
@@ -28,7 +26,8 @@ export default {
         {
           url: "https://scontent-sin6-2.xx.fbcdn.net/v/t1.6435-9/123351772_695449751099231_7527031373795945584_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=9267fe&_nc_ohc=_CwneCHCmMMAX_G8Sl-&tn=kZSvGoKk9FgcbAEN&_nc_ht=scontent-sin6-2.xx&oh=00_AT-Zr0ksc9GNjYjhRsthDrPR1jXZLkdYXPmA1rS-nUbTlw&oe=6260D948",
           alt: "",
-          class: "lg:col-span-6 lg:row-span-2 object-top sm:object-center",
+          class:
+            "lg:col-span-6 lg:row-span-2 object-top sm:object-center rectangle sm:square col-span-4 sm:col-span-2",
         },
         {
           url: "https://scontent-sin6-3.xx.fbcdn.net/v/t1.6435-9/151966159_762049921105880_9139072014226160453_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=9267fe&_nc_ohc=KWpqxdiOlV0AX8o8GTx&_nc_ht=scontent-sin6-3.xx&oh=00_AT8m__Xf1L6OyLqeFlJjLKZ0z_zOqoUQe0rWxLeU7m3SMg&oe=62634928",

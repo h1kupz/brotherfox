@@ -3,7 +3,7 @@
     class="flex items-center h-screen justify-center mb-1 bg-cover custom-img"
   >
     <div
-      class="flex w-96 h-96 p-6 rounded-full bg-green shadow-fox_d overflow-hidden opacity-0 scale-75 duration-1000"
+      class="flex w-72 h-72 sm:w-96 sm:h-96 p-6 rounded-full bg-green shadow-fox_d overflow-hidden opacity-0 scale-75 duration-1000"
       x-intersect.threshold.1="$el.classList.add('opacity-100', 'scale-100')"
     >
       <img class="self-center" src="../assets/images/FoxLogoGreen.png" alt="" />

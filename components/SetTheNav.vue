@@ -17,7 +17,7 @@
     </a>
     <p>
       <button
-        class="text-green uppercase font-medium tracking-wide hover:text-gold transition duration-150 ease-in-out md:hidden"
+        class="text-green uppercase font-semibold md:font-medium tracking-wide hover:text-gold transition duration-150 ease-in-out md:hidden"
         x-on:click="open = !open"
       >
         menu
@@ -31,7 +31,7 @@
       <a v-for="page in menu" :key="page.id" v-bind:href="page.url">
         <p>
           <button
-            class="w-full md:w-auto pl-0 md:pl-8 py-6 md:py-0 font-medium tracking-wide uppercase text-green hover:text-gold"
+            class="w-full md:w-auto pl-0 md:pl-8 py-6 md:py-0 text-xl md:text-base font-semibold md:font-medium tracking-wide uppercase text-green hover:text-gold"
             x-on:click="open = !close"
           >
             {{ page.page }}
