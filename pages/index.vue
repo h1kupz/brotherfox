@@ -1,5 +1,5 @@
 <template>
-  <main id="home" class="overflow-hidden">
+  <main id="home" class="overflow-hidden bg-[#fc019c]">
     <h1kz class="bg-[#101119]" />
   </main>
 </template>
