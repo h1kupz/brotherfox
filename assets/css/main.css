@@ -10,22 +10,22 @@
     @apply bg-gold;
   }
   header {
-    @apply fixed top-0 z-30 w-full fox-px shadow-fox_d bg-bone backdrop-filter backdrop-blur bg-opacity-50;
+    @apply fixed top-0 z-30 w-full fox-px shadow-fox_d dark:shadow-fox_l bg-bone dark:bg-green backdrop-filter backdrop-blur bg-opacity-50 dark:bg-opacity-50;
   }
   footer {
     @apply z-30 w-full fox-px;
   }
   nav {
-    @apply flex items-center justify-between  mx-auto max-w-screen-xl flex-wrap py-4 /* fox-px bg-brown rounded-b-foxlg shadow-fox_d */;
+    @apply flex items-center justify-between mx-auto max-w-screen-xl flex-wrap py-4;
   }
   section {
     @apply w-full min-h-screen flex pb-20 fox-px mb-1 overflow-hidden;
   }
   content {
-    @apply grid w-full items-start mx-auto max-w-screen-xl pt-28;
+    @apply grid w-full items-start mx-auto max-w-screen-xl pt-32;
   }
   p {
-    @apply font-sans text-green font-medium lg:text-lg tracking-wide;
+    @apply font-sans text-green dark:text-bone font-medium lg:text-lg tracking-wide;
   }
   h1 {
     @apply font-sans font-bold uppercase text-gold text-2xl sm:text-3xl md:text-4xl lg:text-6xl;
@@ -82,13 +82,13 @@
     @apply sm:col-span-1 md:col-span-3 lg:col-span-5;
   }
   .fox-card {
-    @apply flex items-center rounded-foxsm overflow-hidden bg-gold shadow-fox_d;
+    @apply flex items-center rounded-foxsm overflow-hidden bg-gold shadow-fox_d dark:shadow-fox_l;
   }
   .fox-image {
     @apply object-cover h-full w-full self-center sepia;
   }
   .fox-form {
-    @apply rounded-foxlg bg-brown shadow-fox_d px-4 py-4;
+    @apply rounded-foxlg bg-green dark:bg-gold shadow-fox_d dark:shadow-fox_l px-4 py-4;
   }
 }
 

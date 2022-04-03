@@ -1,7 +1,9 @@
 <template>
   <div>
     <h1 class="col-span-full mb-8">Colours</h1>
-    <div class="fox-grid gap-0 p-6 rounded-foxlg">
+    <div
+      class="fox-grid bg-bone gap-0 p-6 rounded-foxlg shadow-none dark:shadow-fox_l"
+    >
       <div
         class="bg-green fox-grid-item rectangle lg:square h-2/3 self-center"
       />
@@ -33,7 +35,9 @@
         <span class="font-normal">Grulle</span>
       </h3>
     </div>
-    <div class="fox-grid bg-green gap-0 p-6 rounded-foxlg mt-4 shadow-fox_d">
+    <div
+      class="fox-grid bg-green gap-0 p-6 rounded-foxlg mt-4 shadow-fox_d dark:shadow-none"
+    >
       <div
         class="bg-bone fox-grid-item rectangle lg:square h-2/3 self-center shadow-fox_l"
       />

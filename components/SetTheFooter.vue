@@ -2,13 +2,13 @@
   <footer
     class="flex items-center justify-between mx-auto max-w-screen-xl flex-wrap py-4 px-0"
   >
-    <p class="text-sm text-green">
+    <p class="text-sm text-green dark:text-gold">
       <span class="text-lg relative top-0.5">&copy;</span>
       {{ new Date().getFullYear() }} Brother Fox
     </p>
 
     <svg
-      class="w-10 h-10 rounded-full cursor-pointer animate-pulse-slow"
+      class="w-10 h-10 rounded-full bg-bone dark:bg-gold cursor-pointer animate-pulse-slow"
       version="1.1"
       id="Layer_1"
       x="0px"

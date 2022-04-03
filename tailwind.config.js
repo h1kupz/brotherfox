@@ -10,6 +10,7 @@ module.exports = {
     "./*.{vue,js,ts}",
     "./nuxt.config.{js,ts}",
   ],
+  darkMode: "class",
   theme: {
     colors: {
       gold: "#AC9E7B",
@@ -25,6 +26,11 @@ module.exports = {
       boxShadow: {
         fox_d: "2px 10px 10px -5px rgba(30, 41, 43, 0.5)",
         fox_l: "2px 10px 10px -5px rgba(172,158,123, 0.25)",
+
+        backgroundColor: ["checked"],
+        borderColor: ["checked"],
+        inset: ["checked"],
+        zIndex: ["hover", "active"],
       },
       animation: {
         "pulse-slow": "pulse 8s cubic-bezier(0.4, 0, 0.6, 1) infinite",
