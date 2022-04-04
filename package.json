@@ -21,6 +21,7 @@
     "@nuxt/types": "^2.15.8",
     "@nuxt/typescript-build": "^2.1.0",
     "@nuxtjs/tailwindcss": "^4.2.1",
+    "@tailwindcss/forms": "^0.5.0",
     "nuxt-gsap-module": "^1.6.0",
     "postcss": "^8.4.4"
   }

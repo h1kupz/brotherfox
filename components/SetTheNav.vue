@@ -4,7 +4,7 @@
     <a href="#">
       <div class="grid justify-items-left">
         <div
-          class="text-2xl font-serif uppercase font-bold text-green dark:text-bone hover:text-gold"
+          class="text-3xl font-serif uppercase font-bold text-green dark:text-bone hover:text-gold"
         >
           Brother Fox
         </div>
@@ -32,7 +32,7 @@
       <a v-for="page in menu" :key="page.id" v-bind:href="page.url">
         <p>
           <button
-            class="w-full md:w-auto pl-0 md:pl-8 py-6 md:py-0 text-xl md:text-base font-semibold md:font-medium tracking-wide uppercase text-green dark:text-gold hover:text-gold dark:hover:text-bone"
+            class="w-full md:w-auto pl-0 md:pl-4 lg:pl-8 py-6 md:py-0 text-xl md:text-sm lg:text-base font-semibold md:font-medium tracking-wide uppercase text-green dark:text-gold hover:text-gold dark:hover:text-bone"
             x-on:click="open = !close"
           >
             {{ page.page }}
@@ -79,19 +79,19 @@
           </a>
         </div>
         <!-- Toggle Theme -->
-        <div class="flex md:w-auto pl-0 md:pl-10 mb-3.5 md:mb-1">
+        <div class="flex md:w-auto pl-0 md:pl-11 mb-3.5 md:mb-1">
           <div
-            class="relative inline-block w-12 mr-2 align-middle select-none self-center"
+            class="relative inline-block w-11 mr-3 align-middle select-none self-center"
           >
             <label
               for="toggle"
-              class="block overflow-hidden h-1.5 rounded-full cursor-pointer relative top-1.5 bg-gradient-to-r from-bone to-green"
+              class="block overflow-hidden h-1 rounded-full cursor-pointer relative top-1.5 bg-gradient-to-r from-bone to-green"
             />
             <input
               id="toggle"
               type="checkbox"
               name="toggle"
-              class="outline-none focus:outline-none right-7 checked:right-0.5 duration-200 ease-in absolute block w-px h-px border border-gold rounded-full appearance-none cursor-pointer top-0 dark:bg-gold"
+              class="right-6.5 checked:right-0 duration-200 ease-in absolute block w-4 h-4 bg-green focus:bg-green border-1 border-gold rounded-full focus:ring-0 focus:ring-offset-0 cursor-pointer top-0 checked:bg-[url('')] checked:bg-gold checked:focus:bg-gold"
               x-bind:value="darkMode"
               x-on:change="darkMode = !darkMode"
             />
@@ -112,6 +112,7 @@ export default {
         { page: "Type", url: "#type" },
         { page: "Images", url: "#images" },
         { page: "CMS", url: "#cms" },
+        { page: "Contact", url: "#contact" },
       ],
     };
   },
