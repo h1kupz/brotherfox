@@ -20,7 +20,7 @@
       </a>
       <!-- lightbox -->
       <div
-        class="lightbox absolute flex mx-auto max-w-screen-xl w-0 h-0 opacity-0 inset-0 z-30 overflow-hidden justify-center items-center bg-bone dark:bg-green backdrop-filter backdrop-blur bg-opacity-50 dark:bg-opacity-50 fox-px"
+        class="lightbox absolute flex mx-auto max-w-screen-xl w-0 h-0 opacity-0 inset-0 z-30 overflow-hidden justify-center items-center bg-bone dark:bg-green backdrop-filter backdrop-blur bg-opacity-50 dark:bg-opacity-50 fox-px pb-36"
         v-bind:id="image.order"
       >
         <a v-bind:href="image.prev" class="light-btn absolute left-0 z-50"
@@ -31,7 +31,7 @@
         >
         <img
           v-bind:src="image.url"
-          class="fox-image square-0 rectangle-0 rounded-foxlg shadow-fox_d max-h-[90%] w-auto opacity-0"
+          class="fox-image square-0 rectangle-0 rounded-foxlg shadow-fox_d max-h-[90%] h-auto w-auto opacity-0"
         />
         <a v-bind:href="image.next" class="light-btn absolute right-0 z-50"
           ><div class="fox-btn">Next</div></a
