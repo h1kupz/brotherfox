@@ -79,23 +79,22 @@
           </a>
         </div>
         <!-- Toggle Theme -->
-        <div
-          class="flex justify-start self-center md:justify-start w-full md:w-auto pl-0 md:pl-10 py-6 md:py-0 mb-1"
-        >
-          <div class="relative inline-block w-12 mr-2 align-middle select-none">
+        <div class="flex md:w-auto pl-0 md:pl-10 mb-3.5 md:mb-1">
+          <div
+            class="relative inline-block w-12 mr-2 align-middle select-none self-center"
+          >
             <label
               for="toggle"
-              class="block overflow-hidden h-4 rounded-full bg-green dark:bg-gold cursor-pointer"
-            >
-              <input
-                id="toggle"
-                type="checkbox"
-                name="toggle"
-                class="outline-none focus:outline-none right-7 checked:right-1 duration-200 ease-in absolute block w-px h-px rounded-full bg-bone border-0 border-gold appearance-none cursor-pointer"
-                x-bind:value="darkMode"
-                x-on:change="darkMode = !darkMode"
-              />
-            </label>
+              class="block overflow-hidden h-1.5 rounded-full cursor-pointer relative top-1.5 bg-gradient-to-r from-bone to-green"
+            />
+            <input
+              id="toggle"
+              type="checkbox"
+              name="toggle"
+              class="outline-none focus:outline-none right-7 checked:right-0.5 duration-200 ease-in absolute block w-px h-px border border-gold rounded-full appearance-none cursor-pointer top-0 dark:bg-gold"
+              x-bind:value="darkMode"
+              x-on:change="darkMode = !darkMode"
+            />
           </div>
         </div>
       </div>
