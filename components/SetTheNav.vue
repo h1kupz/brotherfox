@@ -32,7 +32,7 @@
       <a v-for="page in menu" :key="page.id" v-bind:href="page.url">
         <p>
           <button
-            class="w-full md:w-auto pl-0 md:pl-4 lg:pl-8 py-6 md:py-0 text-xl md:text-sm lg:text-base font-semibold md:font-medium tracking-wide uppercase text-green dark:text-gold hover:text-gold dark:hover:text-bone"
+            class="w-full md:w-auto pl-0 md:pl-4 lg:pl-8 py-4 md:py-0 text-xl md:text-sm lg:text-base font-semibold md:font-medium tracking-wide uppercase text-green dark:text-gold hover:text-gold dark:hover:text-bone"
             x-on:click="open = !close"
           >
             {{ page.page }}

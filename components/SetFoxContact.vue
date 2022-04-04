@@ -6,7 +6,7 @@
         class="fox-form fox-grid lg:grid-flow-col col-span-full content-start"
       >
         <div
-          class="fox-card grid bg-opacity-0 col-span-4 sm:col-span-2 md:col-span-3 lg:col-span-5"
+          class="fox-card grid bg-opacity-0 mb-2 col-span-4 sm:col-span-2 md:col-span-3 lg:col-span-5"
         >
           <h4 class="text-gold dark:text-green col-span-full">Hours</h4>
           <p class="text-gold py-2 dark:text-green sm:mr-4 md:mr-2">
