@@ -20,7 +20,7 @@
       </a>
       <!-- lightbox -->
       <div
-        class="lightbox absolute flex mx-auto max-w-screen-xl w-0 h-0 opacity-0 inset-0 z-30 overflow-hidden justify-center items-center bg-bone dark:bg-green backdrop-filter backdrop-blur bg-opacity-50 dark:bg-opacity-50 fox-px pb-36"
+        class="lightbox absolute flex mx-auto max-w-screen-xl w-0 h-0 opacity-0 inset-0 z-30 overflow-hidden justify-center items-center bg-bone dark:bg-green backdrop-filter backdrop-blur bg-opacity-50 dark:bg-opacity-50"
         v-bind:id="image.order"
       >
         <a v-bind:href="image.prev" class="light-btn absolute left-0 z-50"
