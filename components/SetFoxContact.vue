@@ -60,7 +60,7 @@
             </div>
             <div>
               <label for="email" class="block text-gold dark:text-green"
-                >Email address</label
+                >Email</label
               >
               <div class="mt-1 w-full">
                 <input
