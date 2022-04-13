@@ -44,7 +44,14 @@
             class="fox-card bg-opacity-0 grid col-span-full lg:col-span-5 mb-2 sm:order-last lg:row-start-2"
           >
             <h4 class="col-span-full pb-2 dark:text-green">Message</h4>
-            <form name="contact" class="mb-0 w-full" method="POST" netlify>
+            <form
+              name="contact"
+              class="mb-0 w-full"
+              data-netlify="true"
+              data-netlify-honeypot="bot-field"
+              method="POST"
+            >
+              <input type="hidden" value="contact" name="form-name" />
               <div>
                 <label for="email" class="block text-gold dark:text-green"
                   >Name</label
