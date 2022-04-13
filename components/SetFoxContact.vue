@@ -44,7 +44,13 @@
             class="fox-card bg-opacity-0 grid col-span-full lg:col-span-5 mb-2 sm:order-last lg:row-start-2"
           >
             <h4 class="col-span-full pb-2 dark:text-green">Message</h4>
-            <form class="mb-0 w-full" action="#" method="POST" netlify>
+            <form
+              name="contact"
+              class="mb-0 w-full"
+              action="#contact"
+              method="POST"
+              netlify
+            >
               <div>
                 <label for="email" class="block text-gold dark:text-green"
                   >Name</label
