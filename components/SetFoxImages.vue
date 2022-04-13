@@ -1,44 +1,46 @@
 <template>
-  <div class="fox-grid fox-images">
-    <h1 class="col-span-full">Images</h1>
-    <p class="col-span-full mb-4">
-      Example treatment of images and gallery/lightbox.
-    </p>
-    <div
-      class="fox-card square col-span-2 md-col-span-1 lg:col-span-3"
-      v-for="image in images"
-      :key="image.id"
-      v-bind:class="image.class"
-    >
-      <a v-bind:href="image.current">
-        <img
-          class="fox-image square"
-          v-bind:src="image.url"
-          v-bind:alt="image.alt"
-          v-bind:class="image.class"
-        />
-      </a>
-      <!-- lightbox -->
+  <SetFoxContent>
+    <div class="fox-grid fox-images">
+      <h1 class="col-span-full">Images</h1>
+      <p class="col-span-full mb-4">
+        Example treatment of images and gallery/lightbox.
+      </p>
       <div
-        class="lightbox absolute flex mx-auto max-w-screen-xl w-0 h-0 opacity-0 inset-0 z-30 overflow-hidden justify-center items-center bg-bone dark:bg-green backdrop-filter backdrop-blur bg-opacity-50 dark:bg-opacity-50"
-        v-bind:id="image.order"
+        class="fox-card square col-span-2 md-col-span-1 lg:col-span-3"
+        v-for="image in images"
+        :key="image.id"
+        v-bind:class="image.class"
       >
-        <a v-bind:href="image.prev" class="light-btn absolute left-0 z-50"
-          ><div class="fox-btn">Prev</div></a
+        <a v-bind:href="image.current">
+          <img
+            class="fox-image square"
+            v-bind:src="image.url"
+            v-bind:alt="image.alt"
+            v-bind:class="image.class"
+          />
+        </a>
+        <!-- lightbox -->
+        <div
+          class="lightbox absolute flex mx-auto max-w-screen-xl w-0 h-0 opacity-0 inset-0 z-30 overflow-hidden justify-center items-center bg-bone dark:bg-green backdrop-filter backdrop-blur bg-opacity-50 dark:bg-opacity-50"
+          v-bind:id="image.order"
         >
-        <a href="#_" class="absolute top-[100px] right-0 z-50"
-          ><div class="fox-btn">X</div></a
-        >
-        <img
-          v-bind:src="image.url"
-          class="fox-image square-0 rectangle-0 rounded-foxlg shadow-fox_d max-h-[90%] h-auto w-auto opacity-0"
-        />
-        <a v-bind:href="image.next" class="light-btn absolute right-0 z-50"
-          ><div class="fox-btn">Next</div></a
-        >
+          <a v-bind:href="image.prev" class="light-btn absolute left-0 z-50"
+            ><div class="fox-btn">Prev</div></a
+          >
+          <a href="#_" class="absolute top-[100px] right-0 z-50"
+            ><div class="fox-btn">X</div></a
+          >
+          <img
+            v-bind:src="image.url"
+            class="fox-image square-0 rectangle-0 rounded-foxlg shadow-fox_d max-h-[90%] h-auto w-auto opacity-0"
+          />
+          <a v-bind:href="image.next" class="light-btn absolute right-0 z-50"
+            ><div class="fox-btn">Next</div></a
+          >
+        </div>
       </div>
     </div>
-  </div>
+  </SetFoxContent>
 </template>
 
 <style scoped>
