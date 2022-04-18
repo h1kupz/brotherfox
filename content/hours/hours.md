@@ -1,5 +1,6 @@
 ---
 
+title: Hours
 sunday: Closed
 monday: Closed
 tuesday: 8pm–5:30pm

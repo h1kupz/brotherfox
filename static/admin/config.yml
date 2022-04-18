@@ -44,11 +44,12 @@ collections:
     folder: "content/hours"
     format: "frontmatter"
     create: true
-    identifier_field: sunday
+    identifier_field: title
     slug: "{{slug}}"
     editor:
       preview: false
     fields:
+      - { label: "Title", name: "title", widget: "string" }
       - { label: "Sunday", name: "sunday", widget: "string" }
       - { label: "Monday", name: "monday", widget: "string" }
       - { label: "Tuesday", name: "tuesday", widget: "string" }
