@@ -41,48 +41,7 @@
       >
     </section>
     <section id="contact" class="bg-bone dark:bg-green">
-      <SetFoxContact>
-        <div
-          v-for="hours of hours"
-          :key="hours.slug"
-          class="fox-card grid bg-opacity-0 mb-2 col-span-4 sm:col-span-2 md:col-span-4 lg:col-span-5"
-        >
-          <h4 class="text-gold dark:text-green col-span-full">Hours</h4>
-          <p class="text-gold pt-4 dark:text-green">
-            Sunday:<span class="text-bone float-right">{{ hours.sunday }}</span>
-          </p>
-          <hr />
-          <p class="text-gold dark:text-green">
-            Monday:<span class="text-bone float-right">{{ hours.monday }}</span>
-          </p>
-          <hr />
-          <p class="text-gold dark:text-green">
-            Tuesday:
-            <span class="text-bone float-right">{{ hours.tuesday }}</span>
-          </p>
-          <hr />
-          <p class="text-gold dark:text-green">
-            Wednesday:
-            <span class="text-bone float-right">{{ hours.wednesday }}</span>
-          </p>
-          <hr />
-          <p class="text-gold dark:text-green">
-            Thursday:
-            <span class="text-bone float-right">{{ hours.thursday }}</span>
-          </p>
-          <hr />
-          <p class="text-gold dark:text-green">
-            Friday:
-            <span class="text-bone float-right">{{ hours.friday }}</span>
-          </p>
-          <hr />
-          <p class="text-gold dark:text-green">
-            Saturday:
-            <span class="text-bone float-right">{{ hours.saturday }}</span>
-          </p>
-          <hr />
-        </div>
-      </SetFoxContact>
+      <SetFoxContact />
     </section>
   </main>
 </template>
@@ -96,11 +55,9 @@ export default Vue.extend({
 
   async asyncData({ $content }) {
     const crew = await $content("crew").sortBy("order").fetch();
-    const hours = await $content("hours").sortBy("order").fetch();
 
     return {
       crew,
-      hours,
     };
   },
 });

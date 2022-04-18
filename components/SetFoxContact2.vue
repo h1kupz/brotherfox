@@ -6,7 +6,40 @@
         <div
           class="fox-form fox-grid lg:grid-flow-col col-span-full content-start"
         >
-          <slot></slot>
+          <div
+            class="fox-card grid bg-opacity-0 mb-2 col-span-4 sm:col-span-2 md:col-span-4 lg:col-span-5"
+          >
+            <h4 class="text-gold dark:text-green col-span-full">Hours</h4>
+            <p class="text-gold pt-2 dark:text-green">
+              Sunday:<span class="text-bone float-right">Closed</span>
+            </p>
+            <hr class="text-gold dark:text-green pb-2" />
+            <p class="text-gold dark:text-green">
+              Monday:<span class="text-bone float-right">Closed</span>
+            </p>
+            <hr class="text-gold dark:text-green pb-2" />
+            <p class="text-gold dark:text-green">
+              Tuesday: <span class="text-bone float-right">8AM–5:30PM</span>
+            </p>
+            <hr class="text-gold dark:text-green pb-2" />
+            <p class="text-gold dark:text-green">
+              Wednesday: <span class="text-bone float-right">8AM–5:30PM</span>
+            </p>
+            <hr class="text-gold dark:text-green pb-2" />
+            <p class="text-gold dark:text-green">
+              Thursday: <span class="text-bone float-right">8AM–6PM</span>
+            </p>
+            <hr class="text-gold dark:text-green pb-2" />
+            <p class="text-gold dark:text-green">
+              Friday: <span class="text-bone float-right">8AM–5:30PM</span>
+            </p>
+            <hr class="text-gold dark:text-green pb-2" />
+            <p class="text-gold dark:text-green">
+              Saturday:
+              <span class="text-bone float-right">8AM–1PM</span>
+            </p>
+            <hr class="text-gold dark:text-green pb-2" />
+          </div>
           <div
             class="fox-card bg-opacity-0 grid col-span-full lg:col-span-5 mb-2 sm:order-last lg:row-start-2"
           >

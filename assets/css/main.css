@@ -42,6 +42,9 @@
   h5 {
     @apply font-bold tracking-wide uppercase text-sm text-gold;
   }
+  hr {
+    @apply text-gold dark:text-green pb-2;
+  }
   input {
     @apply block w-full p-2 text-gold bg-bone bg-clip-padding rounded-foxsm transition ease-in-out fox-mb focus:text-brown focus:bg-bone focus:outline-none;
   }

@@ -6,6 +6,23 @@ media_folder: static/images
 public_folder: /img
 
 collections:
+  - name: "gallery"
+    label: "Gallery"
+    folder: "content/gallery"
+    format: "frontmatter"
+    create: true
+    identifier_field: name
+    slug: "{{slug}}"
+    editor:
+      preview: false
+    fields:
+      - {
+          label: "Image",
+          name: "image",
+          widget: "image",
+          choose_url: true,
+          media_folder: "images",
+        }
   - name: "crew"
     label: "Crew"
     folder: "content/crew"
@@ -22,3 +39,20 @@ collections:
       - { label: "Position", name: "position", widget: "string" }
       - { label: "Bio", name: "bio", widget: "markdown" }
       - { label: "Image", name: "image", widget: "image", choose_url: true }
+  - name: "hours"
+    label: "Hours"
+    folder: "content/hours"
+    format: "frontmatter"
+    create: true
+    identifier_field: name
+    slug: "{{slug}}"
+    editor:
+      preview: false
+    fields:
+      - { label: "Sunday", name: "sunday", widget: "string" }
+      - { label: "Monday", name: "monday", widget: "string" }
+      - { label: "Tuesday", name: "tuesday", widget: "string" }
+      - { label: "Wednesday", name: "wednesday", widget: "string" }
+      - { label: "Thursday", name: "thursday", widget: "string" }
+      - { label: "Friday", name: "friday", widget: "string" }
+      - { label: "Saturday", name: "saturday", widget: "string" }
